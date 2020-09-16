@@ -1,0 +1,145 @@
+{
+  "ingredients": [
+    {
+      "name": "Poireau",
+      "category": 0
+    },
+    {
+      "name": "Haddock",
+      "category": 2
+    },
+    {
+      "name": "Pâtes",
+      "category": 7
+    },
+    {
+      "name": "Fromage",
+      "category": 4
+    },
+    {
+      "name": "Jambon",
+      "category": 1
+    },
+    {
+      "name": "Sauce barbecue",
+      "category": 5
+    },
+    {
+      "name": "Poivre",
+      "category": 6
+    },
+    {
+      "name": "Œufs de caille",
+      "category": 3
+    },
+    {
+      "name": "Eau",
+      "category": 8
+    }
+  ],
+  "recipes": [
+    {
+      "name": "recette414",
+      "group": 0,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "index": 0,
+          "quantity": "2"
+        }
+      ],
+      "steps": [
+        "étape 1 de la recette",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dictum tellus ut feugiat pulvinar. In diam lectus, feugiat sed facilisis vitae, faucibus vitae lectus. Maecenas laoreet eleifend metus vel dignissim. Aenean quis orci suscipit, congue orci pulvinar, vulputate orci. Nulla.",
+        "Nulla.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dictum tellus ut feugiat pulvinar. In diam lectus, feugiat sed facilisis vitae, faucibus vitae lectus. Maecenas laoreet eleifend metus vel dignissim. Aenean quis orci suscipit, congue orci pulvinar, vulputate orci. Nulla.",
+        "Nulla.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dictum tellus ut feugiat pulvinar. In diam lectus, feugiat sed facilisis vitae, faucibus vitae lectus. Maecenas laoreet eleifend metus vel dignissim. Aenean quis orci suscipit, congue orci pulvinar, vulputate orci. Nulla.",
+        "Nulla."
+      ]
+    },
+    {
+      "name": "recette12",
+      "group": 0,
+      "difficulty": 2,
+      "ingredients": [
+        {
+          "index": 4,
+          "quantity": "2"
+        },
+        {
+          "index": 6,
+          "quantity": "2"
+        },
+        {
+          "index": 7,
+          "quantity": "50 L"
+        }
+      ],
+      "steps": [
+        "étape 1 de la recette",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dictum tellus ut feugiat pulvinar. In diam lectus, feugiat sed facilisis vitae, faucibus vitae lectus. Maecenas laoreet eleifend metus vel dignissim. Aenean quis orci suscipit, congue orci pulvinar, vulputate orci. Nulla.",
+        "Nulla.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dictum tellus ut feugiat pulvinar. In diam lectus, feugiat sed facilisis vitae, faucibus vitae lectus. Maecenas laoreet eleifend metus vel dignissim. Aenean quis orci suscipit, congue orci pulvinar, vulputate orci. Nulla.",
+        "Nulla.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dictum tellus ut feugiat pulvinar. In diam lectus, feugiat sed facilisis vitae, faucibus vitae lectus. Maecenas laoreet eleifend metus vel dignissim. Aenean quis orci suscipit, congue orci pulvinar, vulputate orci. Nulla.",
+        "Nulla.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dictum tellus ut feugiat pulvinar. In diam lectus, feugiat sed facilisis vitae, faucibus vitae lectus. Maecenas laoreet eleifend metus vel dignissim. Aenean quis orci suscipit, congue orci pulvinar, vulputate orci. Nulla.",
+        "Nulla.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dictum tellus ut feugiat pulvinar. In diam lectus, feugiat sed facilisis vitae, faucibus vitae lectus. Maecenas laoreet eleifend metus vel dignissim. Aenean quis orci suscipit, congue orci pulvinar, vulputate orci. Nulla.",
+        "Nulla."
+      ]
+    },
+    {
+      "name": "recette4",
+      "group": 2,
+      "difficulty": 0,
+      "ingredients": [
+        {
+          "index": 0,
+          "quantity": "2"
+        },
+        {
+          "index": 3,
+          "quantity": "50 L"
+        },
+        {
+          "index": 5,
+          "quantity": "5 pincées"
+        },
+        {
+          "index": 8,
+          "quantity": "2 gallons"
+        }
+      ],
+      "steps": [
+        "étape 1 de la recette",
+        "Lorem ipsum dolor sit amet",
+        "Maecenas laoreet",
+        "Lorem ipsum dolor sit amet",
+        "Maecenas laoreet",
+        "Nulla."
+      ]
+    },
+    {
+      "name": "recette",
+      "group": 1,
+      "difficulty": 1,
+      "ingredients": [
+        {
+          "index": 2,
+          "quantity": "2"
+        },
+        {
+          "index": 1,
+          "quantity": "cinq tranches"
+        }
+      ],
+      "steps": [
+        "étape 1 de la recette"
+      ]
+    }
+  ]
+}

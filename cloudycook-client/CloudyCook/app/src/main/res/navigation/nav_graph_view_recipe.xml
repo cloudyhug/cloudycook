@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/nav_graph_view_recipe"
+        app:startDestination="@id/viewRecipeFragment">
+
+    <fragment
+            android:id="@+id/viewRecipeFragment"
+            android:name="io.github.cloudyhug.cloudycook.ViewRecipeFragment"
+            android:label="fragment_view_recipe"
+            tools:layout="@layout/fragment_view_recipe" >
+        <action
+                android:id="@+id/action_viewRecipeFragment_to_viewRecipeInfoFragment"
+                app:destination="@id/viewRecipeInfoFragment" />
+        <action
+                android:id="@+id/action_viewRecipeFragment_to_viewRecipeIngredientsFragment"
+                app:destination="@id/viewRecipeIngredientsFragment" />
+        <action
+                android:id="@+id/action_viewRecipeFragment_to_viewRecipeStepsFragment"
+                app:destination="@id/viewRecipeStepsFragment" />
+    </fragment>
+    <fragment
+            android:id="@+id/viewRecipeInfoFragment"
+            android:name="io.github.cloudyhug.cloudycook.ViewRecipeInfoFragment"
+            android:label="fragment_view_recipe_info"
+            tools:layout="@layout/fragment_view_recipe_info" />
+    <fragment
+            android:id="@+id/viewRecipeIngredientsFragment"
+            android:name="io.github.cloudyhug.cloudycook.ViewRecipeIngredientsFragment"
+            android:label="fragment_view_recipe_ingredients_list"
+            tools:layout="@layout/fragment_view_recipe_ingredient_list" />
+    <fragment
+            android:id="@+id/viewRecipeStepsFragment"
+            android:name="io.github.cloudyhug.cloudycook.ViewRecipeStepsFragment"
+            android:label="fragment_view_recipe_steps_list"
+            tools:layout="@layout/fragment_step_list" />
+</navigation>

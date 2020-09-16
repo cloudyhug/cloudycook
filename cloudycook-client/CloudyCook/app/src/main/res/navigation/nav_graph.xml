@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/nav_graph"
+        app:startDestination="@id/mainFragment">
+    <fragment
+            android:id="@+id/mainFragment"
+            android:name="io.github.cloudyhug.cloudycook.MainFragment"
+            android:label="MainFragment">
+        <action
+                android:id="@+id/action_mainFragment_to_recipesFragment"
+                app:destination="@id/recipesFragment" />
+        <action
+                android:id="@+id/action_mainFragment_to_ingredientsFragment"
+                app:destination="@id/ingredientsFragment" />
+        <action
+                android:id="@+id/action_mainFragment_to_syncFragment"
+                app:destination="@id/syncFragment" />
+    </fragment>
+    <fragment
+            android:id="@+id/recipesFragment"
+            android:name="io.github.cloudyhug.cloudycook.components.recipes.RecipesFragment"
+            android:label="fragment_recipes_list"
+            tools:layout="@layout/fragment_recipe_list" />
+    <fragment
+            android:id="@+id/ingredientsFragment"
+            android:name="io.github.cloudyhug.cloudycook.components.ingredients.IngredientsFragment"
+            android:label="fragment_ingredients_list"
+            tools:layout="@layout/fragment_ingredient_list" />
+    <fragment
+            android:id="@+id/syncFragment"
+            android:name="io.github.cloudyhug.cloudycook.components.sync.SyncFragment"
+            android:label="SyncFragment" />
+</navigation>

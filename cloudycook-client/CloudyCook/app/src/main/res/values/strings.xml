@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">CloudyCook</string>
+    <string name="title_home">Home</string>
+    <string name="title_recipes">Recipes</string>
+    <string name="title_ingredients">Ingredients</string>
+    <string name="title_sync">Sync</string>
+    <string name="add_ingredient">New ingredient</string>
+    <string name="home_fragment">Welcome to CloudyCook</string>
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="starters">Starters</string>
+    <string name="main_courses">Main Courses</string>
+    <string name="desserts">Desserts</string>
+    <string name="philippe_etchebest">Philippe Etchebest</string>
+    <string name="add_recipe_ingredient">Add recipe / ingredient</string>
+    <string name="new_recipe">New Recipe</string>
+    <string name="recipe_name">Recipe name</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="recipe_group">Recipe group</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="step">Step</string>
+    <string name="add_step">Add step</string>
+    <string name="add_recipe">Add recipe</string>
+    <string name="recipe_name_empty">Recipe name is empty</string>
+    <string name="step_empty">New step is empty</string>
+    <string name="info_tab">Info</string>
+    <string name="ingredients_tab">Ingredients</string>
+    <string name="steps_tab">Steps</string>
+    <string name="ingredient_and_qty_text">%1$s (%2$s)</string>
+    <string name="view_recipe">View Recipe</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="upload">Upload recipes and ingredients to server</string>
+    <string name="download">Download recipes and ingredients from server</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="recipes">Recettes</string>
+    <string name="title_activity_sync">SyncActivity</string>
+</resources>

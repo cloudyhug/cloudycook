@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/action_send"
+            android:icon="@drawable/ic_publish_black_24dp"
+            android:title= "@string/upload"
+            app:showAsAction="ifRoom" />
+    <item
+            android:id="@+id/action_recv"
+            android:icon="@drawable/ic_get_app_black_24dp"
+            android:title= "@string/download"
+            app:showAsAction="ifRoom" />
+    <item
+            android:id="@+id/action_add"
+            android:icon="@drawable/ic_add_box_black_24dp"
+            android:title= "@string/add_recipe_ingredient"
+            app:showAsAction="ifRoom" />
+</menu>
